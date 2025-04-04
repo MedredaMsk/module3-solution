@@ -1,0 +1,82 @@
+/* Custom styles for the header */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Change font to Comic Sans */
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #4CAF50; /* Header background color */
+    min-height: 80px; /* Height of the header */
+    border: none;
+    margin-bottom: 0; /* Remove margin to avoid space */
+}
+.navbar-brand {
+    color: #ffffff !important; /* Title text color */
+    font-size: 30px; /* Title font size */
+    line-height: 60px; /* Vertically center the text */
+}
+.navbar-right button {
+    color: #ffffff !important; /* Button text color */
+    font-size: 25px; /* Button font size */
+    line-height: 80px; /* Vertically center the text */
+    background-color: transparent !important; /* Prevent color change on click */
+    border: none;
+}
+/* Styles for the dropdown bar */
+.dropdown-bar {
+    display: none; /* Hidden by default */
+    background-color: #DEE5D4;
+    width: 100%;
+    position: relative;
+    border-top: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it appears above other content */
+}
+.dropdown-bar a {
+    display: block; /* Display each link as a block element */
+    padding: 15px 20px;
+    color: #333333; /* Text color */
+    font-size: 20px; /* Font size */
+    text-decoration: none;
+    text-align: center; /* Center-align the text */
+    border-bottom: 2px solid #ddd; /* Separate each item with a border */
+}
+.dropdown-bar a:hover {
+    background-color: #f8f9fa; /* Hover effect */
+}
+.dropdown-bar a:last-child {
+    border-bottom: 2px solid #ddd; /* Remove border from last item */
+}
+/* Title bar */
+.title-bar {
+    background-color: #ffffff; /* Configurable title bar color */
+    height: 70px; /* Configurable title bar height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: None;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title-bar h1 {
+    margin: 0;
+    font-size: 40px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.section {
+    max-width: 95%; /* Set the maximum width to 90% of the page width */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Add padding for better spacing inside the section */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    margin-top: 20px;
+}
+.footer-section {
+    background-color: #ffffff; /* Light background color for the footer */
+    padding: 10px 0; /* Add vertical padding for space */
+    text-align: center; /* Center the text */
+    font-size: 18px; /* Font size for the text */
+    color: #333; /* Text color */
+    border-top: None; /* Optional: Add a top border for separation */
+    margin-top: 20px; /* Add margin to create space from the previous section */
+}
